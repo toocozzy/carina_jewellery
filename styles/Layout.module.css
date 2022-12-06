@@ -9,3 +9,10 @@
   }
 }
 /*# sourceMappingURL=Layout.module.css.map */
+
+@media (min-width: 768px) {
+  .main {
+    padding: 0 20%;
+  }
+}
+/*# sourceMappingURL=Layout.module.css.map */

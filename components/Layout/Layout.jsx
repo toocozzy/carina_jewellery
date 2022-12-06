@@ -2,7 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Navbar from "../Navbar/Navbar";
 import styles from "../../styles/Layout.module.css";
-import MobileNav from "../MobileNav/MobileNav";
 
 const Layout = ({ children }) => {
   return (
@@ -22,7 +21,6 @@ const Layout = ({ children }) => {
       </Head>
       <header>
         <Navbar />
-        {/* <MobileNav /> */}
       </header>
       <main className={styles.main}>{children}</main>
     </div>
