@@ -1,19 +1,27 @@
-[
-
-  {
-    "id": "roboczy",
-    "path": "/assets/roboczy.jpg"
+{
+  "banner": {
+    "img": "/assets/banner.jpg",
+    "text": "Wyjątkowa biżuteria na codzień i specjalne okazje!"
   },
-  {
-    "id": "roboczy",
-    "path": "/assets/roboczy.jpg"
-  },
-  {
-    "id": "roboczy",
-    "path": "/assets/roboczy.jpg"
-  },
-  {
-    "id": "roboczy",
-    "path": "/assets/roboczy.jpg"
-  }
-]
+  "categories": [
+    "bransoletki",
+    "naszyjniki",
+    "pierścionki",
+    "kolczyki",
+    "dla niego"
+  ],
+  "homelinks": [
+    {
+      "id": "bransoletki",
+      "path": "assets/banner1.jpg"
+    },
+    {
+      "id": "kolczyki",
+      "path": "assets/banner2.jpg"
+    },
+    {
+      "id": "zestawy",
+      "path": "assets/banner3.jpg"
+    }
+  ]
+}

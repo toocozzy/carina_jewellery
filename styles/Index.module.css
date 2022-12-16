@@ -1,1 +1,35 @@
-/* No CSS *//*# sourceMappingURL=Index.module.css.map */
+.homepage__links-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px 0;
+}
+.homepage__links-item {
+  height: 100%;
+  width: 100%;
+}
+.homepage__links-img {
+  height: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+  .homepage__links-container {
+    height: 300px;
+    flex-direction: row;
+  }
+  .homepage__links-item {
+    width: 32%;
+  }
+  .homepage__links-img {
+    height: 100%;
+  }
+}
+
+/*# sourceMappingURL=Index.module.css.map */

@@ -1,0 +1,50 @@
+.homebanner {
+  height: 40vh;
+  margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.homebanner__content-container {
+  text-align: center;
+  padding: 45px 20px 20px 20px;
+  width: 295px;
+}
+.homebanner__content-text {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 30px;
+  font-weight: bold;
+  border-bottom: 10px;
+}
+.homebanner__content-link {
+  text-decoration: none;
+  background-color: black;
+  color: #fff;
+  padding: 7px;
+  margin: 25px auto;
+  display: block;
+  width: 130px;
+}
+
+@media (min-width: 767px) {
+  .homebanner {
+    background-position: center;
+  }
+}
+@media (min-width: 1023px) {
+  .homebanner {
+    justify-content: flex-end;
+  }
+  .homebanner__content-container {
+    width: 50%;
+  }
+  .homebanner__content-text {
+    font-size: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=HomeBanner.module.css.map */

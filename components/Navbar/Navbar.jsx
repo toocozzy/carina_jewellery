@@ -1,7 +1,8 @@
 import Logo from "../Logo/Logo";
 import styles from "../../styles/Navbar.module.css";
 import Link from "next/link";
-import { categories } from "../../dummy_data";
+import dummy from "../../dummy.json"
+
 
 const Navbar = () => {
   return (
@@ -15,7 +16,7 @@ const Navbar = () => {
       </button>
       <div className={styles.desktop_nav}>
         <ul className={styles["desktop_nav-container"]}>
-          {categories.map((category) => (
+          {dummy.categories.map((category) => (
             <li className={styles["desktop_nav-item"]} key={category}>
               <Link className={styles["desktop_nav-link"]} href="/">
                 {category}
