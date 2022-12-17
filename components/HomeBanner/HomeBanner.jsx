@@ -1,6 +1,6 @@
 import styles from "../../styles/HomeBanner.module.css";
 import dummy from "../../dummy.json";
-import Link from "next/link";
+import Button from "../UI/Button/Button";
 
 const HomeBanner = () => {
   return (
@@ -12,9 +12,7 @@ const HomeBanner = () => {
         <p className={styles["homebanner__content-text"]}>
           {dummy.banner.text}
         </p>
-        <Link className={styles["homebanner__content-link"]} href="/">
-          Sprawdź
-        </Link>
+        <Button href="/">Sprawdź</Button>
       </div>
     </div>
   );

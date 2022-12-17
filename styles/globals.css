@@ -5,4 +5,17 @@
   font-family: "Raleway", sans-serif;
 }
 
+::selection {
+  background-color: blue;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: rgb(226, 232, 233);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(184, 196, 199);
+}
+
 /*# sourceMappingURL=globals.css.map */
