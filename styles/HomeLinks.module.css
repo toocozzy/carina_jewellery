@@ -1,4 +1,4 @@
-.homelinks {
+.homelinks__container {
   height: 990px;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@
 }
 
 @media (min-width: 580px) {
-  .homelinks {
+  .homelinks__container {
     flex-direction: row;
     flex-wrap: wrap;
     height: 680px;
@@ -41,7 +41,7 @@
   }
 }
 @media (min-width: 767px) {
-  .homelinks {
+  .homelinks__container {
     height: 330px;
     margin: 20px 0;
   }

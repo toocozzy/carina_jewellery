@@ -1,10 +1,12 @@
 .homelinks {
-  height: 990px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 30px 0;
+  &__container {
+    height: 990px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+  }
 
   &__item {
     width: 100%;
@@ -34,9 +36,11 @@
 
 @media (min-width: 580px) {
   .homelinks {
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 680px;
+    &__container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 680px;
+    }
 
     &__item {
       width: 47%;
@@ -46,8 +50,10 @@
 
 @media (min-width: 767px) {
   .homelinks {
-    height: 330px;
-    margin: 20px 0;
+    &__container {
+      height: 330px;
+      margin: 20px 0;
+    }
 
     &__item {
       width: 31%;

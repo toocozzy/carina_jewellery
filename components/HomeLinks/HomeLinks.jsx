@@ -4,19 +4,21 @@ import Button from "../UI/Button/Button";
 
 const HomeLinks = () => {
   return (
-    <ul className={styles.homelinks}>
-      {dummy.homelinks.map((item) => (
-        <div
-          className={styles.homelinks__item}
-          style={{ backgroundImage: `url(${item.path})` }}
-        >
-          <div className={styles["homelinks__text-container"]}>
-            <p className={styles.homelinks__text}>{item.id}</p>
+    <section className={styles.homelinks}>
+      <ul className={styles.homelinks__container}>
+        {dummy.homelinks.map((item) => (
+          <div
+            className={styles.homelinks__item}
+            style={{ backgroundImage: `url(${item.path})` }}
+          >
+            <div className={styles["homelinks__text-container"]}>
+              <p className={styles.homelinks__text}>{item.id}</p>
+            </div>
+            <Button href="/">Sprawdź</Button>
           </div>
-          <Button href="/">Sprawdź</Button>
-        </div>
-      ))}
-    </ul>
+        ))}
+      </ul>
+    </section>
   );
 };
 export default HomeLinks;

@@ -23,5 +23,31 @@
       "id": "zestawy",
       "path": "assets/banner3.jpg"
     }
+  ],
+  "featuredproducts": [
+    {
+      "id": "bransoletka",
+      "title": "bransoletka classic black",
+      "price": "79.00",
+      "img": "/assets/bransoletka.png"
+    },
+    {
+      "id": "bransoletka",
+      "title": "bransoletka classic black",
+      "price": "79.00",
+      "img": "/assets/bransoletka.png"
+    },
+    {
+      "id": "bransoletka",
+      "title": "bransoletka classic black",
+      "price": "79.00",
+      "img": "/assets/bransoletka.png"
+    },
+    {
+      "id": "bransoletka",
+      "title": "bransoletka classic black",
+      "price": "79.00",
+      "img": "/assets/bransoletka.png"
+    }
   ]
 }
