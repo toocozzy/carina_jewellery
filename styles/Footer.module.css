@@ -1,0 +1,57 @@
+.container {
+  background-color: #000;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.links__container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+.links__icon {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 5px;
+}
+.links__icon:hover {
+  font-weight: bold;
+}
+.links__item {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+.links__item:hover {
+  font-weight: bold;
+}
+
+.contact__container {
+  padding: 20px;
+  text-align: center;
+}
+.contact__label {
+  color: #fff;
+  margin: 7px 0;
+}
+.contact__link {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    padding: 3% 20%;
+  }
+}
+
+/*# sourceMappingURL=Footer.module.css.map */
