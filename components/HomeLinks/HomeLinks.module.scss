@@ -9,6 +9,10 @@
   }
 
   &__item {
+    &-container {
+      list-style: none;
+      width: 100%;
+    }
     width: 100%;
     height: 310px;
     background-position: center;
@@ -43,7 +47,9 @@
     }
 
     &__item {
-      width: 47%;
+      &-container {
+        width: 47%;
+      }
     }
   }
 }
@@ -56,7 +62,9 @@
     }
 
     &__item {
-      width: 31%;
+      &-container {
+        width: 31%;
+      }
     }
   }
 }

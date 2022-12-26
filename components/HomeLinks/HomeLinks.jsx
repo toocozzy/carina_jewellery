@@ -6,16 +6,18 @@ const HomeLinks = () => {
   return (
     <section className={styles.homelinks}>
       <ul className={styles.homelinks__container}>
-        {dummy.homelinks.map((item) => (
-          <div
-            className={styles.homelinks__item}
-            style={{ backgroundImage: `url(${item.path})` }}
-          >
-            <div className={styles["homelinks__text-container"]}>
-              <p className={styles.homelinks__text}>{item.id}</p>
+        {dummy.homelinks.map((item, i) => (
+          <li className={styles["homelinks__item-container"]} key={i}>
+            <div
+              className={styles.homelinks__item}
+              style={{ backgroundImage: `url(${item.path})` }}
+            >
+              <div className={styles["homelinks__text-container"]}>
+                <p className={styles.homelinks__text}>{item.id}</p>
+              </div>
+              <Button href="/">Sprawdź</Button>
             </div>
-            <Button href="/">Sprawdź</Button>
-          </div>
+          </li>
         ))}
       </ul>
     </section>
