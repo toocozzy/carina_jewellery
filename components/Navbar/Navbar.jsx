@@ -18,7 +18,7 @@ const Navbar = () => {
         <ul className={styles["desktop_nav-container"]}>
           {dummy.categories.map((category) => (
             <li className={styles["desktop_nav-item"]} key={category}>
-              <Link className={styles["desktop_nav-link"]} href="/">
+              <Link className={styles["desktop_nav-link"]} href={category}>
                 {category}
               </Link>
             </li>

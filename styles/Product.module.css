@@ -1,0 +1,57 @@
+.list__container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.list__item {
+  width: 100%;
+  margin: 15px 0;
+}
+.list__item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list__item-title {
+  text-transform: uppercase;
+  margin: 5px 0;
+  font-weight: bold;
+}
+.list__item-price {
+  margin: 5px 0;
+}
+.list__item-btn {
+  margin: 10px 0;
+  background-color: black;
+  color: #fff;
+  padding: 7px;
+  display: block;
+  width: 130px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.list__item-link {
+  color: #000;
+  text-decoration: none;
+}
+
+@media (min-width: 580px) {
+  .list__container {
+    flex-direction: row;
+  }
+  .list__item {
+    width: 47%;
+  }
+}
+@media (min-width: 767px) {
+  .list__item {
+    width: 23%;
+  }
+}
+
+/*# sourceMappingURL=Product.module.css.map */
