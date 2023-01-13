@@ -1,8 +1,7 @@
 import Logo from "../Logo/Logo";
 import styles from "../../styles/Navbar.module.css";
 import Link from "next/link";
-import dummy from "../../dummy.json"
-
+import dummy from "../../dummy.json";
 
 const Navbar = () => {
   return (

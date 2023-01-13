@@ -15,7 +15,7 @@ const HomeLinks = () => {
               <div className={styles["homelinks__text-container"]}>
                 <p className={styles.homelinks__text}>{item.id}</p>
               </div>
-              <Button href="/">Sprawdź</Button>
+              <Button href={item.id}>Sprawdź</Button>
             </div>
           </li>
         ))}
