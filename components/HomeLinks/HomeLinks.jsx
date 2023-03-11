@@ -1,12 +1,11 @@
-import dummy from "../../dummy.json";
 import styles from "../../styles/HomeLinks.module.css";
 import Button from "../UI/Button/Button";
 
-const HomeLinks = () => {
+const HomeLinks = ({ linksData }) => {
   return (
     <section className={styles.homelinks}>
       <ul className={styles.homelinks__container}>
-        {dummy.homelinks.map((item, i) => (
+        {linksData.map((item, i) => (
           <li className={styles["homelinks__item-container"]} key={i}>
             <div
               className={styles.homelinks__item}

@@ -1,18 +1,54 @@
-import { useRouter } from "next/router";
 import styles from "../../styles/ProductsPage.module.css";
 import ProductsList from "../../components/ProductsList/ProductsList";
-import dummy from "../../dummy.json"
+import path from "path";
+import fs from "fs/promises";
 
-const ProductsPage = () => {
-  const router = useRouter();
-  const query = router.query.products;
-
+const ProductsPage = ({ items }) => {
   return (
     <div className={styles.container}>
-      {/*<h1>{query}</h1>*/}
-      <ProductsList items={dummy.bransoletki}/>
+      <ProductsList items={items} />
     </div>
   );
 };
+
+async function getData() {
+  const FilePath = path.join(process.cwd(), "dummy.json");
+  const jsonData = await fs.readFile(FilePath);
+  const data = JSON.parse(jsonData);
+
+  return data;
+}
+
+export async function getStaticProps(context) {
+  const { params } = context;
+  const productsCategory = params.products;
+
+  const data = await getData();
+
+  const products = data.products.filter(
+    (products) => products.category === productsCategory
+  );
+
+  return {
+    props: {
+      items: products,
+    },
+    revalidate: 300,
+  };
+}
+
+export async function getStaticPaths() {
+  const data = await getData();
+  const categories = data.products.map((products) => products.category);
+
+  const params = categories.map((category) => ({
+    params: { products: category },
+  }));
+
+  return {
+    paths: params,
+    fallback: false,
+  };
+}
 
 export default ProductsPage;

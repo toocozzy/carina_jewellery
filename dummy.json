@@ -51,54 +51,126 @@
     }
   ],
   "logofooter": "/assets/logo-white.png",
-  "bransoletki": [
+  "products": [
     {
-      "id": "bransoletka",
+      "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png"
     },
     {
-      "id": "bransoletka",
+      "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png"
     },
     {
-      "id": "bransoletka",
+      "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png"
     },
     {
-      "id": "bransoletka",
+      "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png"
     },
     {
-      "id": "bransoletka",
+      "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png"
     },
     {
-      "id": "bransoletka",
+      "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png"
     },
     {
-      "id": "bransoletka",
+      "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png"
     },
     {
-      "id": "bransoletka",
+      "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png"
+    },
+    {
+      "category": "bransoletki",
+      "title": "bransoletka classic black",
+      "price": "79.00",
+      "img": "/assets/bransoletka.png"
+    },
+    {
+      "category": "bransoletki",
+      "title": "bransoletka classic black",
+      "price": "79.00",
+      "img": "/assets/bransoletka.png"
+    },
+    {
+      "category": "bransoletki",
+      "title": "bransoletka classic black",
+      "price": "79.00",
+      "img": "/assets/bransoletka.png"
+    },
+    {
+      "category": "bransoletki",
+      "title": "bransoletka classic black",
+      "price": "79.00",
+      "img": "/assets/bransoletka.png"
+    },
+    {
+      "category": "naszyjniki",
+      "title": "naszyjnik classic",
+      "price": "85.00",
+      "img": "/assets/naszyjnik.png"
+    },
+    {
+      "category": "naszyjniki",
+      "title": "naszyjnik classic",
+      "price": "85.00",
+      "img": "/assets/naszyjnik.png"
+    },
+    {
+      "category": "naszyjniki",
+      "title": "naszyjnik classic",
+      "price": "85.00",
+      "img": "/assets/naszyjnik.png"
+    },
+    {
+      "category": "naszyjniki",
+      "title": "naszyjnik classic",
+      "price": "85.00",
+      "img": "/assets/naszyjnik.png"
+    },
+    {
+      "category": "naszyjniki",
+      "title": "naszyjnik classic",
+      "price": "85.00",
+      "img": "/assets/naszyjnik.png"
+    },
+    {
+      "category": "naszyjniki",
+      "title": "naszyjnik classic",
+      "price": "85.00",
+      "img": "/assets/naszyjnik.png"
+    },
+    {
+      "category": "naszyjniki",
+      "title": "naszyjnik classic",
+      "price": "85.00",
+      "img": "/assets/naszyjnik.png"
+    },
+    {
+      "category": "naszyjniki",
+      "title": "naszyjnik classic",
+      "price": "85.00",
+      "img": "/assets/naszyjnik.png"
     }
   ]
 }
