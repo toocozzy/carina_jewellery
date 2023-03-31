@@ -18,4 +18,30 @@
   background-color: rgb(184, 196, 199);
 }
 
+.product-slider {
+  &__img {
+    width: 100%;
+  }
+
+  &-thumbs {
+    .swiper-slide {
+      cursor: pointer;
+      border: 2px solid #dddbdb;
+
+      &-thumb-active {
+        border-color: #000;
+      }
+    }
+
+    &__img {
+      width: 100%;
+    }
+
+    &-wrapper {
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+}
+
 

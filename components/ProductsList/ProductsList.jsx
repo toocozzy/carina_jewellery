@@ -8,7 +8,7 @@ const ProductsList = ({ items }) => {
       {items.map((item, i) => (
         <li className={styles.list__item} key={i}>
           <div className={styles["list__item-container"]}>
-            <Link className={styles["list__item-link"]} href="/">
+            <Link className={styles["list__item-link"]} href={`${item.category}/${item.id}`}>
               <Image
                 src={item.img}
                 width={200}

@@ -1,0 +1,33 @@
+.item__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+.item__title {
+  text-transform: uppercase;
+  margin: 5px 0;
+  font-weight: bold;
+}
+.item__price {
+  margin: 10px 0;
+}
+.item__btn {
+  margin: 10px 0;
+  background-color: black;
+  color: #fff;
+  padding: 7px;
+  display: block;
+  width: 130px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.item__link {
+  color: #000;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=ProductItem.module.css.map */

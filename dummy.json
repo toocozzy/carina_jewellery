@@ -24,153 +24,481 @@
       "path": "assets/banner3.jpg"
     }
   ],
-  "featuredproducts": [
-    {
-      "id": "bransoletka",
-      "title": "bransoletka classic black",
-      "price": "79.00",
-      "img": "/assets/bransoletka.png"
-    },
-    {
-      "id": "bransoletka",
-      "title": "bransoletka classic black",
-      "price": "79.00",
-      "img": "/assets/bransoletka.png"
-    },
-    {
-      "id": "bransoletka",
-      "title": "bransoletka classic black",
-      "price": "79.00",
-      "img": "/assets/bransoletka.png"
-    },
-    {
-      "id": "bransoletka",
-      "title": "bransoletka classic black",
-      "price": "79.00",
-      "img": "/assets/bransoletka.png"
-    }
-  ],
   "logofooter": "/assets/logo-white.png",
   "products": [
     {
+      "id": "b1",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": true,
+      "relatedProductsIds": ["b5", "n3", "n2", "b6"]
     },
     {
+      "id": "b2",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": true,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "b3",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": true,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "b4",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "b5",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "b6",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "b7",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "b8",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "b9",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "b10",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "b11",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "b12",
       "category": "bransoletki",
       "title": "bransoletka classic black",
       "price": "79.00",
-      "img": "/assets/bransoletka.png"
+      "img": "/assets/bransoletka.png",
+      "images": [
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png",
+        "/assets/bransoletka.png"
+      ],
+      "description": "Drobna bransoletka na jubilerskiej lince stalowej, wykonana z wysokiej jakości materiałów!",
+      "sizes": ["S (ok. 15cm)", "M (ok. 18cm)", "L (ok. 20cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "n1",
       "category": "naszyjniki",
       "title": "naszyjnik classic",
       "price": "85.00",
-      "img": "/assets/naszyjnik.png"
+      "img": "/assets/naszyjnik.png",
+      "images": [
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores dolorem facere iusto libero?",
+      "sizes": ["S (ok. 25cm)", "M (ok. 28cm)", "L (ok. 30cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "n2",
       "category": "naszyjniki",
       "title": "naszyjnik classic",
       "price": "85.00",
-      "img": "/assets/naszyjnik.png"
+      "img": "/assets/naszyjnik.png",
+      "images": [
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores dolorem facere iusto libero?",
+      "sizes": ["S (ok. 25cm)", "M (ok. 28cm)", "L (ok. 30cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": true,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
+
     },
     {
+      "id": "n3",
       "category": "naszyjniki",
       "title": "naszyjnik classic",
       "price": "85.00",
-      "img": "/assets/naszyjnik.png"
+      "img": "/assets/naszyjnik.png",
+      "images": [
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores dolorem facere iusto libero?",
+      "sizes": ["S (ok. 25cm)", "M (ok. 28cm)", "L (ok. 30cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "n4",
       "category": "naszyjniki",
       "title": "naszyjnik classic",
       "price": "85.00",
-      "img": "/assets/naszyjnik.png"
+      "img": "/assets/naszyjnik.png",
+      "images": [
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores dolorem facere iusto libero?",
+      "sizes": ["S (ok. 25cm)", "M (ok. 28cm)", "L (ok. 30cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "n5",
       "category": "naszyjniki",
       "title": "naszyjnik classic",
       "price": "85.00",
-      "img": "/assets/naszyjnik.png"
+      "img": "/assets/naszyjnik.png",
+      "images": [
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores dolorem facere iusto libero?",
+      "sizes": ["S (ok. 25cm)", "M (ok. 28cm)", "L (ok. 30cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "n6",
       "category": "naszyjniki",
       "title": "naszyjnik classic",
       "price": "85.00",
-      "img": "/assets/naszyjnik.png"
+      "img": "/assets/naszyjnik.png",
+      "images": [
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores dolorem facere iusto libero?",
+      "sizes": ["S (ok. 25cm)", "M (ok. 28cm)", "L (ok. 30cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "n7",
       "category": "naszyjniki",
       "title": "naszyjnik classic",
       "price": "85.00",
-      "img": "/assets/naszyjnik.png"
+      "img": "/assets/naszyjnik.png",
+      "images": [
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores dolorem facere iusto libero?",
+      "sizes": ["S (ok. 25cm)", "M (ok. 28cm)", "L (ok. 30cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     },
     {
+      "id": "n8",
       "category": "naszyjniki",
       "title": "naszyjnik classic",
       "price": "85.00",
-      "img": "/assets/naszyjnik.png"
+      "img": "/assets/naszyjnik.png",
+      "images": [
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png",
+        "/assets/naszyjnik.png"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores dolorem facere iusto libero?",
+      "sizes": ["S (ok. 25cm)", "M (ok. 28cm)", "L (ok. 30cm)"],
+      "name_of_rock": "dupson",
+      "size_of_rock": "15mm",
+      "material_of_closure": "metal",
+      "type_of_closure": "łatwe",
+      "material_of_hanger": "metal",
+      "theme_of_hanger": "fajny",
+      "featured": false,
+      "relatedProductsIds": ["b8", "n3", "n2", "b6"]
     }
   ]
 }

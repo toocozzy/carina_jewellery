@@ -27,11 +27,13 @@ async function getData() {
 export async function getStaticProps() {
   const data = await getData();
 
+  const featuredProducts = data.products.filter((product) => product.featured === true);
+
   return {
     props: {
       bannerData: data.banner,
       linksData: data.homelinks,
-      productsData: data.featuredproducts,
+      productsData: featuredProducts,
     },
     revalidate: 300,
   };
