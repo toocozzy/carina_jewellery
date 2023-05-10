@@ -22,12 +22,16 @@ async function getData() {
 export async function getStaticProps(context) {
   const { params } = context;
   const productsCategory = params.products;
-
+  const isSubCategory = productsCategory.includes("-");
   const data = await getData();
 
   const products = data.products.filter(
-    (products) => products.category === productsCategory
+    (product) =>
+      (isSubCategory ? product.subcategory : product.category) ===
+      productsCategory
   );
+
+  console.log(products);
 
   return {
     props: {
@@ -39,7 +43,9 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
   const data = await getData();
-  const categories = data.products.map((products) => products.category);
+  const categories = data.products.map(
+    (product) => product.subcategory || product.category
+  );
 
   const params = categories.map((category) => ({
     params: { products: category },

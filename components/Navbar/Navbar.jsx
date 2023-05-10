@@ -1,7 +1,7 @@
 import Logo from "../Logo/Logo";
 import styles from "../../styles/Navbar.module.css";
-import Link from "next/link";
 import dummy from "../../dummy.json";
+import MenuItems from "../MenuItems/MenuItems";
 
 const Navbar = () => {
   return (
@@ -13,14 +13,11 @@ const Navbar = () => {
       <button className={styles.navbar__btn}>
         <i className="ri-shopping-bag-line"></i>
       </button>
+
       <div className={styles.desktop_nav}>
         <ul className={styles["desktop_nav-container"]}>
-          {dummy.categories.map((category) => (
-            <li className={styles["desktop_nav-item"]} key={category}>
-              <Link className={styles["desktop_nav-link"]} href={category}>
-                {category}
-              </Link>
-            </li>
+          {dummy.menuCategories.map((category, i) => (
+            <MenuItems items={category} key={i} />
           ))}
         </ul>
       </div>

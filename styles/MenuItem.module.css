@@ -1,0 +1,14 @@
+.container {
+  list-style: none;
+}
+.container:hover {
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=MenuItem.module.css.map */

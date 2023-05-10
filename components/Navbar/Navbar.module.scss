@@ -24,26 +24,14 @@
   }
 }
 
+
+
 .desktop_nav {
   &-container {
     display: none;
     width: 60vw;
     justify-content: space-around;
     margin-top: 20px;
-  }
-
-  &-item {
-    list-style: none;
-
-    &:hover {
-      font-weight: bold;
-    }
-  }
-
-  &-link {
-    text-decoration: none;
-    color: #000;
-    text-transform: uppercase;
   }
 }
 
@@ -60,7 +48,7 @@
   .desktop_nav {
     &-container {
       display: flex;
-      width: 70vw;
+      width: 85vw;
     }
   }
 }
@@ -68,7 +56,15 @@
 @media (min-width: 900px) {
   .desktop_nav {
     &-container {
-      width: 60vw;
+      width: 75vw;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .desktop_nav {
+    &-container {
+      width: 70vw;
     }
   }
 }

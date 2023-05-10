@@ -1,15 +1,81 @@
 {
   "banner": {
     "img": "/assets/banner_clear.jpg",
-
     "text": "Wyjątkowa biżuteria na codzień i specjalne okazje!"
   },
-  "categories": [
-    "bransoletki",
-    "naszyjniki",
-    "pierścionki",
-    "kolczyki",
-    "dla niego"
+  "menuCategories": [
+    {
+      "title": "bransoletki",
+      "url": "/bransoletki",
+      "submenu": [
+        {
+          "title": "bransoletki z klasycznym zapięciem",
+          "url": "bransoletki-z-klasycznym-zapieciem"
+        },
+        {
+          "title": "bransoletki z zapięciem sznurkowym",
+          "url": "bransoletki-z-zapieciem-sznurkowym"
+        },
+        {
+          "title": "komplety bransoletek",
+          "url": "komplety-bransoletek"
+        }
+      ]
+    },
+    {
+      "title": "naszyjniki",
+      "url": "naszyjniki",
+      "submenu": [
+        {
+          "title": "chokery",
+          "url": "chokery"
+        },
+        {
+          "title": "naszyjniki długie",
+          "url": "naszyjniki-dlugie"
+        },
+        {
+          "title": "komplety naszyjników",
+          "url": "komplety-naszyjnikow"
+        }
+      ]
+    },
+    {
+      "title": "kolczyki",
+      "url": "kolczyki",
+      "submenu": [
+        {
+          "title": "kolczyki długie",
+          "url": "kolczyki-długie"
+        },
+        {
+          "title": "kolczyki sztyfty",
+          "url": "kolczyki-sztyfty"
+        }
+      ]
+    },
+    {
+      "title": "pierścionki",
+      "url": "pierscionki",
+      "submenu": [
+        {
+          "title": "pierścionki na lince jubilerskiej",
+          "url": "pierscionki-na-lince-jublierskiej"
+        },
+        {
+          "title": "pierścionki na gumce jubilerskiej",
+          "url": "pierscionki-na-gumce-jublierskiej"
+        }
+      ]
+    },
+    {
+      "title": "dla niego",
+      "url": "dla-niego"
+    },
+    {
+      "title": "karta podarunkowa",
+      "url": "karta-podarunkowa"
+    }
   ],
   "homelinks": [
     {
@@ -30,6 +96,7 @@
     {
       "id": "b1",
       "category": "bransoletki",
+      "subcategory": "bransoletki-z-klasycznym-zapieciem",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png",
@@ -55,6 +122,7 @@
     {
       "id": "b2",
       "category": "bransoletki",
+      "subcategory": "bransoletki-z-klasycznym-zapieciem",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png",
@@ -79,6 +147,7 @@
     {
       "id": "b3",
       "category": "bransoletki",
+      "subcategory": "bransoletki-z-klasycznym-zapieciem",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png",
@@ -103,6 +172,7 @@
     {
       "id": "b4",
       "category": "bransoletki",
+      "subcategory": "bransoletki-z-klasycznym-zapieciem",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png",
@@ -127,6 +197,7 @@
     {
       "id": "b5",
       "category": "bransoletki",
+      "subcategory": "bransoletki-z-zapieciem-sznurkowym",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png",
@@ -175,6 +246,7 @@
     {
       "id": "b7",
       "category": "bransoletki",
+      "subcategory": "bransoletki-z-klasycznym-zapieciem",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png",
@@ -199,6 +271,7 @@
     {
       "id": "b8",
       "category": "bransoletki",
+      "subcategory": "bransoletki-z-klasycznym-zapieciem",
       "title": "bransoletka classic black",
       "price": "79.00",
       "img": "/assets/bransoletka.png",
@@ -361,7 +434,6 @@
       "theme_of_hanger": "fajny",
       "featured": true,
       "relatedProductsIds": ["b8", "n3", "n2", "b6"]
-
     },
     {
       "id": "n3",

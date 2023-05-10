@@ -1,0 +1,27 @@
+.container {
+  list-style: none;
+  //border: 2px solid blue;
+  position: relative;
+
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+
+  &:hover {
+    font-weight: bold;
+  }
+}
