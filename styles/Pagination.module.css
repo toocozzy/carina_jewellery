@@ -1,0 +1,36 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 20px 0;
+}
+.pagination__container {
+  display: flex;
+  justify-content: center;
+}
+.pagination__item {
+  margin: 0 5px;
+}
+.pagination__btn {
+  border: none;
+  border-radius: 15%;
+  padding: 10px;
+  background-color: #dddbdb;
+  cursor: pointer;
+}
+.pagination__switch {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.pagination__switch-icon {
+  font-size: 1.3rem;
+}
+
+.active {
+  background-color: black;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=Pagination.module.css.map */

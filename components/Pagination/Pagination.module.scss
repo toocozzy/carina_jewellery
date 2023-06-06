@@ -1,0 +1,41 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 20px 0;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item {
+    margin: 0 5px;
+  }
+
+  &__btn {
+    border: none;
+    border-radius: 15%;
+    padding: 10px;
+    background-color: #dddbdb;
+    cursor: pointer;
+  }
+
+  &__switch {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    &-icon {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+.active {
+  background-color: black;
+  color: #ffffff;
+}
+
+

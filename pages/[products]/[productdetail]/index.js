@@ -17,8 +17,10 @@ const RelatedProductsSlider = dynamic(
   }
 );
 
+
 const ProductDetailPage = ({ loadedProduct, relatedProducts }) => {
   const [activeAccordion, setActiveAccordion] = useState("specyfikacja");
+
 
   return (
     <div className={styles.container}>

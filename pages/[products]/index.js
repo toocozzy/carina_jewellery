@@ -2,11 +2,42 @@ import styles from "../../styles/ProductsPage.module.css";
 import ProductsList from "../../components/ProductsList/ProductsList";
 import path from "path";
 import fs from "fs/promises";
+import { useState } from "react";
+import Pagination from "../../components/Pagination/Pagination";
 
 const ProductsPage = ({ items }) => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const [productsPerPage] = useState(8);
+
+  const indexOfLastProduct = currentPage * productsPerPage;
+  const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+  const currentProducts = items.slice(indexOfFirstProduct, indexOfLastProduct);
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+  const nextPage = () => {
+    if (currentPage !== Math.ceil(items.length / productsPerPage)) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const prevPage = () => {
+    if (currentPage !== 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
   return (
     <div className={styles.container}>
-      <ProductsList items={items} />
+      <ProductsList items={currentProducts} />
+      <Pagination
+        productsPerPage={productsPerPage}
+        totalProducts={items.length}
+        paginate={paginate}
+        currentPage={currentPage}
+        nextPage={nextPage}
+        prevPage={prevPage}
+      />
     </div>
   );
 };
